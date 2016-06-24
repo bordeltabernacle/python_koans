@@ -15,21 +15,13 @@ class AboutAsserts(Koan):
         #
         #   http://bit.ly/about_asserts
 
-<<<<<<< HEAD
         self.assertTrue(True)  # This should be true
-=======
-        self.assertTrue(False) # This should be True
->>>>>>> upstream/master
 
     def test_assert_with_message(self):
         """
         Enlightenment may be more easily achieved with appropriate messages.
         """
-<<<<<<< HEAD
         self.assertTrue(True, "This should be true -- Please fix this")
-=======
-        self.assertTrue(False, "This should be True -- Please fix this")
->>>>>>> upstream/master
 
     def test_fill_in_values(self):
         """
@@ -79,11 +71,7 @@ class AboutAsserts(Koan):
         #
         # See for yourself:
 
-<<<<<<< HEAD
         self.assertEqual(str, "naval".__class__)  # It's str, not <type 'str'>
-=======
-        self.assertEqual(__, "navel".__class__) # It's str, not <type 'str'>
->>>>>>> upstream/master
 
         # Need an illustration? More reading can be found here:
         #
